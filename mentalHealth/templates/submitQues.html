@@ -1,0 +1,26 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Thank you!</title>
+    <link rel='stylesheet' href='counselorMatch.css'/>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="landingPage.html">Home</a>
+      <a href="hotLine.html">Hotlines</a>
+      <a href="counselorMatch.html">Counselor Match</a>
+      <a href="counselorSession.html">Counselor Session</a>
+      <a href="articles.html">Articles</a>
+    </div>
+    <div style="text-align:center"/>
+      <p> Thank you for submitting your questionnaire. Use this pin to access your counselling session. </p>
+      <button id="code" onclick="pinGenerator()">Get Pin</button>
+      <script>
+      function pinGenerator() {
+        window.alert(Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15))
+        }
+      </script>
+    </div>
+    <img class="footer" src="footer_swoosh.png">
+  </body>
+</html>

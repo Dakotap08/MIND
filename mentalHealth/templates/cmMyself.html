@@ -1,0 +1,75 @@
+<html lang='en'>
+  <head>
+    <title>Counselor Match</title>
+    <link rel='stylesheet' href='counselorMatch.css'>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="landingPage.html">Home</a>
+      <a href="hotLine.html">Hotlines</a>
+      <a href="counselorMatch.html">Counselor Match</a>
+      <a href="counselorSession.html">Counselor Session</a>
+      <a href="articles.html">Articles</a>
+    </div><br>
+    <fieldset class='situation-form-row'>
+      <legend>Choose the option that best describes your current situation:</legend>
+      <input id='situationGreen'
+        name='situationGreen'
+        type='radio'
+        value='textGreen' />
+      <label for='situationGreen' class='radio-label'>I feel fine, but I would like to have a conversation about maintaining my mental health.</label><br>
+      <input id='situationYellow'
+        name='situationYellow'
+        type='radio'
+        value='textYellow'/>
+      <label for='situationYellow' class='radio-label'> I generally feel ‘okay’, but I occasionally feel overwhelmed by my responsibility and/or personal life.</label><br>
+      <input id='situationOrange'
+        name='situationOrange'
+        type='radio'
+        value='textOrange'/>
+      <label for='situationOrange' class='radio-label'> My current mental state is significantly affecting my ability to perform day to day tasks.</label><br>
+      <input id='situationRed'
+        name='situationRed'
+        type='radio'
+        value='textRed'/>
+      <label for='situationRed' class='radio-label'>I am in immediate danger.</label>
+    </fieldset><br>
+    <fieldset class='situation-form-row'>
+      <legend>How would prefer to have this conversation:</legend>
+      <input id='chat'
+        name='chat'
+        type='radio'
+        value='chat'/>
+      <label for='chat' class='radio-label'>Online Chat</label><br>
+      <input id='phoneCall'
+        name='phoneCall'
+        type='radio'
+        value='phoneCall'/>
+      <label for='phoneCall' class='radio-label'>Phone Call</label><br>
+      <input id='videoCall'
+        name='videoCall'
+        type='radio'
+        value='videoCall'/>
+      <label for='videoCall' class='radio-label'>Video Call</label><br>
+      <input id='inPerson'
+        name='inPerson'
+        type='radio'
+        value='inPerson'/>
+      <label for='inPerson' class='radio-label'>In Person</label><br>
+    </fieldset><br>
+    <div class='form-row'>
+      <label for='additional'>Is there anything else you would like us to know:</label>
+      <input id='additional' name='additional' type='text'/>
+    </div><br>
+    <div class='form-row'>
+      <label for='email'>Please provide your email:</label>
+      <input id='email' name='email' type='text'/>
+    </div><br>
+    <a href="submitQues.html">
+      <button class="button">
+        <span class="button">Submit</span>
+      </button>
+    </a>
+    <img class="footer" src="footer_swoosh.png">
+  </body>
+</html>
